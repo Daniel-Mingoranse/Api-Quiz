@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# TypeScript
+/dist/
+*.tsbuildinfo
+*.d.ts
+
+# Diretórios e arquivos de build
+/build/
+out/
+*.tgz
+*.zip
+
+# Diretórios do IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do Editor (Ex.: VS Code)
+.vscode/
+
+# Arquivos de ambiente (você pode querer manter seu .env, mas ignora o .env.example ou backups)
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de testes
+coverage/
+*.lcov
+
+# Arquivos do TypeScript que são gerados após a compilação
+*.js.map
+*.d.ts.map
